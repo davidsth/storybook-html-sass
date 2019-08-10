@@ -10,6 +10,7 @@
     "style-loader": "^1.0.0"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "build": "node-sass --recursive stylesheets -o build --output-style compressed"
   }
 }
